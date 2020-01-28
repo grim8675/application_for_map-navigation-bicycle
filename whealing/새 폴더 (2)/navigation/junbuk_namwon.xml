@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--충남 공주-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:id="@+id/junbuk_namwon_pop"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="남원지역의 관광활성화를 위해 남원시와 남원역이 협력해 자전거 대여 이용자에게 편의를 제공" />
+        <TextView
+            android:id="@+id/textView_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="자전거 대여방법은 관광객이 자전거 대여 시 1만2천원 보관금을 받고 자전거 반환시 1만원을 환불하며  2,000원은 자전거 수리비로 사용" />
+
+
+
+    </LinearLayout>
+</ScrollView>

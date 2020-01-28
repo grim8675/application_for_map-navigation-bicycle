@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--강원 고성군-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:id="@+id/gangwon_gosung_pop"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="자전거 이용방법" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="정기휴무 : 매월 말 2~3일 휴무, 시니어클럽 어르신들 근무상황에 따라 조정될 수 있음\n운영시간 : 09:00~18:00\n대여방법 : 자전거 이용 신청서를 작성하여 제출하고 신분증을 제시하면 자전거 무료 대여, 자전거 반납 시 신분증 반환\n대여료 : 무료\n단체 이용객의 경우 대표 이용자 신분증 제시 후 대여 가능\n17:00까지만 자전거 대여 가능, 자전거 이용 예상 시간 1시간" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="관련페이지 url" />
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:linksClickable="true"
+            android:autoLink="web"
+            android:text="https://www.gwgs.go.kr/prog/tursmCn/tour/sub03_07/view.do?cntno=125"/>
+
+    </LinearLayout>
+</ScrollView>

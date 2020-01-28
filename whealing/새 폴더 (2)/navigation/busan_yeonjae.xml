@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--부산 연제구 공영자전거-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:id="@+id/busan_yeon_pop"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="자전거 이용방법" />
+        <TextView
+            android:id="@+id/textView_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="운영구간 : 온천천 내\n대여방법 : 대여시 신분증 제시(1인 1일 2시간이내)\n이용자격 : 제한없음\n문의처 : 자전거대여소(☎ 665-4981~4, 4986)" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="관련페이지 url" />
+
+        <TextView
+            android:id="@+id/textView_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:linksClickable="true"
+            android:autoLink="web"
+            android:text="https://www.yeonje.go.kr/portal/contents.do?mId=0601080301"/>
+
+    </LinearLayout>
+</ScrollView>

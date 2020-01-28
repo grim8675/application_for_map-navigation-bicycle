@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--충북청주-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:id="@+id/chunbuk_chungjoo_pop"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="자전거 이용방법" />
+        <TextView
+            android:id="@+id/textView_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="운영 시간 : 월요일을 제외하고 화요일부터 일요일까지, 오전 9시부터 오후 6시까지\n청주 시민만 이용가능, 신청서를 작성하고 신분증을 맡긴 뒤 쉽고 간편하게 자전거를 이용할 수 있다" />
+
+
+    </LinearLayout>
+</ScrollView>

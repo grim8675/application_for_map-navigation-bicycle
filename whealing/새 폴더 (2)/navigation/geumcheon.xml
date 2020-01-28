@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--서울 금천구-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:id="@+id/geumcheon_pop"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="자전거 이용방법" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="1.\t운영기간 : 3월 ~ 12월 (날씨변동에 따라 개폐장이 변동 될 수 있음)\n2.\t운영일 : 주6일 화~일요일 (매주 월요일 휴무, 법정공휴일 휴무)\n3.\운영시간 : 09시~18시(화~금), 10시 ~ 18시(토,일), 계절별 탄력적 운영 \n4.\t대여방법 : 1인1대 당일반납 원칙, 누구나 자유롭게 무료이용(신분증, 휴대폰 2가지 지참필수)\n*초등학생 이하 아동은 성인 보호자 동반 필수, 중고등학생 대여시 학생증, 휴대폰 지참)\n*1회 이용시간 제한(3시간 이내)" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="관련페이지 url" />
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:linksClickable="true"
+            android:autoLink="web"
+            android:text="http://www.geumcheon.go.kr/html/001/001003009006002.html"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--서울 노원구-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:id="@+id/nowon_pop"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="자전거 이용방법" />
+        <TextView
+            android:id="@+id/textView_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="노원구청 홈페이지 회원 가입하고 원하는 대여소에 가서 신분증 제시후 본인여부, 핸드폰번호 일치 여부를 확인후 대여 가능 (대여소에서 신청서 작성하시고 대여도 가능합니다.)" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="1. 본인확인(신분증)후 전산관리프로그램에 필수인적사항 입력 후 자전거대여 가능합니다.\n- 필수인적사항 : 이름, 생년월일, 전화번호, 주소\n2.\t 2. 자전거 이용 후 반납 시에는 노원구에서 운영중인 자전거대여소 중 원하는 곳에 자유롭게 반납 하실 수 있습니다.(자전거 자물쇠 및 헬멧은 원하는 경우에 대여 가능)\n3.\t대여 시 지참물 : 신분증(주민등록증, 운전면허증, 여권, 학생증, 관공서 발행 신분증 등) 및 핸드폰 지참" />
+        <TextView
+            android:id="@+id/textView_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="대여료" />
+        <TextView
+            android:id="@+id/textView_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="대여료 : 1,000원(1일회원) / 15,000원(연회원 = 10개월 : 12월, 1월(혹한기)은 휴무임 (단, 초·중·고 18세이하, 국가유공자, 장애인, 기초생활수급자, 차상위 계층, 65세이상 무료)" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="관련페이지 url" />
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:linksClickable="true"
+            android:autoLink="web"
+            android:text="http://bike.nowon.kr/rent/info.asp"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--부산 해운대구-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:id="@+id/busan_haewoon_pop"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="자전거 이용방법" />
+        <TextView
+            android:id="@+id/textView_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="자전거 무료대여\n1. 운영시간 : 10시 ~ 18시30분(주말 및 공휴일 포함)\n※ 대여는 1일 1시간이며, 마감시간 1시간 전까지 가능(점심시간:12시~1시)\n2. 운영시기 : 상반기(3월 ~ 6월), 하반기(7월 ~ 10월)3. 대여절차 : 대여신청서 작성.제출->신분증 제출.본인확인->자전거 대여->자전거 이용->자전거 반납" />
+        <TextView
+            android:id="@+id/textView_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="준수사항" />
+        <TextView
+            android:id="@+id/textView_22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="자전거는 수영강변 내에서만 이용하여야 합니다.\n대여받은 자전거 이용 중 발생한 인적․물적 사고는 대여받은 자의 책임입니다.\n대여받은 자전거를 본인이 직접 이상여부를 확인하고, 이상이 있는 경우 즉시 관리자의 점검을 받으시기 바랍니다.\n전거 반납은 대여시의 원상태로 관리자에게 직접 하여야 합니다.(센터 앞 임의주차는 반납으로 인정하지 않습니다.)\n이용 중 발생한 자전거의 분실이나 파손은 이용자께서 변상 책임(실비변상)을 져야 합니다.\n음주를 하였거나 안전사고를 발생시킬 수 있는 기상상황에서는 대여를 하지 않습니다." />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="문의처 : 교통행정과(☎749-4511)" />
+
+
+    </LinearLayout>
+</ScrollView>

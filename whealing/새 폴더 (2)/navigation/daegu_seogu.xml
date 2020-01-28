@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--대구 서구-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:id="@+id/daegu_seogu_pop"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="자전거 이용방법" />
+        <TextView
+            android:id="@+id/textView_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="대여료 : 1일/5시간이내, 일반(1천원), 2인용(2천원)\n지참물 : 신분증\n\n문의\n자전거대여소(053-663-3564)\n서구청 교통과 자전거담당자(053-663-3015)" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="관련페이지 url" />
+
+        <TextView
+            android:id="@+id/textView_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:linksClickable="true"
+            android:autoLink="web"
+            android:text="https://www.dgs.go.kr/dgs/life/page.php?mnu_uid=12545"/>
+
+    </LinearLayout>
+</ScrollView>

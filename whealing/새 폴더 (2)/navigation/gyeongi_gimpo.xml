@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--경기도 고양시-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:id="@+id/gyeongi_gim_pop"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/textView_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="자전거 이용방법" />
+        <TextView
+            android:id="@+id/textView_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="대여소위치 : 인천T, 시천, 계양남, 계양북, 파크웨이, 두리캠핑장, 김포T\n자전거대수 : 총 340대(대여소별 약 68대)\n2인용 및 아동용(5세~6세) 자전거 이용가능\n이용요금 : 기본요금(1시간) - 1인용 4,000원, 2인용 6,000원 / 초과요금(10분당) - 1인용 500원, 2인용 1,000원 / 요금지불 형식 - 카드, 현금 모두 가능\n이용절차 : (대여시) 신분증 확인 → 이름ㆍ연락처 장부기재 → 해당요금 지불 / (반납시) 자전거 반납 → 추가요금 확인 / 추가지불\n* 아라뱃길 5개 대여소 간 상호 대여/반납 가능 / 신분증 없을 시 개인소지품(차키 등) 으로 대체 가능" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="관련페이지 url" />
+
+        <TextView
+            android:id="@+id/textView_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:linksClickable="true"
+            android:autoLink="web"
+            android:text="https://www.waterway.or.kr/business/hydrophilic_leisure/cultural_facilities/bicyclerental.php?devide=2_1_3"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--충남 공주-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:id="@+id/junnam_younggwang_pop"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="자전거 이용방법" />
+        <TextView
+            android:id="@+id/textView_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="염산면(면장 김선재) 설도항 둘레길을 찾는 외지 관광객을 대상으로 염산면사무소에 자전거 25대(1인용 20대, 2인용 5대)를 비치해 무료로 대여해주고 있다.\n\n자전거를 무료로 이용하고자 하는 관광객은 염산면사무소에 비치한 자전거 무료이용 약정서에 동의하고 안전운행요령 숙지 후 신분증을 제시하면 자전거를 무료로 대여할 수 있으며 전화(061-350-5515)로 사전예약하면 편리하게 이용할 수 있다." />
+
+
+    </LinearLayout>
+</ScrollView>

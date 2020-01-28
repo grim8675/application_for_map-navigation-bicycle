@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--충남 공주-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:id="@+id/junnam_sinan_pop"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="주민과 관광객들을 대상으로 한 ‘슬로 트래블’이란 명칭으로 섬과 바다, 갯벌을 둘러볼 수 있는 일주도로 40Km 구간에서 운영" />
+
+    </LinearLayout>
+</ScrollView>

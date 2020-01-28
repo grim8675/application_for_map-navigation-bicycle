@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--충북청주-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:id="@+id/chunbuk_choongjoo_pop"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="자전거 이용방법" />
+        <TextView
+            android:id="@+id/textView_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="1일 이용을 기본으로함(1인 1대 원칙)\n1. 대여기관 방문\n2. 신분증 제출(본인확인)\n3. 대여신청서 작성\n4. 자전거 수령\n5. 반납(대여기관)\n\n충주시 거주하는 시민만 이용가능(미성년자의 경우, 법정대리인 동의 필요)\n신분증 미지참시 대여 불가" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="기타 문의사항 : 충주시청 도로과(859-6243)" />
+
+
+    </LinearLayout>
+</ScrollView>

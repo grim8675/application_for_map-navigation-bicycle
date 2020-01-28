@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--충남 공주-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:id="@+id/kyungbuk_sangjoo_museum_pop"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="자전거 이용방법" />
+        <TextView
+            android:id="@+id/textView_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="대여신청기준 : 1인 1대\n이용시간 : 30분\n운영시간 : 10:00~17:00(16:30 신청마감) 5~9월은 30분 연장 운영\n이용장소 : 자전거박물관 경내(전정 및 체험자전거순환도로)※주차장 진입은 금하며, 일방통행(시계방향)으로 이용\n이용방법 : 당일 대여 신청서 작성" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="관련페이지 url" />
+
+        <TextView
+            android:id="@+id/textView_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:linksClickable="true"
+            android:autoLink="web"
+            android:text="https://www.sangju.go.kr/tour/"/>
+
+    </LinearLayout>
+</ScrollView>

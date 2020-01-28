@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--서울 강남-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:id="@+id/sooseo_pop"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="자전거 이용방법" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="신청자격 : 만 19세 이상 남녀(강남구에 주민등록이 되어있으며, 거주하고 있는 자)\n보증금 및 임차료\n보증금 : 1만원(자전거 반납시 환불)\n임차료 : 1천원/월\n보증금 및 임차료는 자전거 배정 메시지를 받으신 후 지정계좌로 입금하시면 됩니다.\n\n신청 방법\n1. 인적사항 : 보증금 환급 은행계좌, 임대 희망 자전거 작성\n2. 약관 확인 후 동의\n3. 신청하기\n4. 자전거 배정 SMS 수신 후 보증금, 임차료 지정계좌 납부(반드시 신청인 성함으로)\n5. 입금 확인 후 자전거 수령 SMS 발송 (교통행정과)\n6. 메시지 수신 후 신분증 지참하여 교통행정과 또는 수서역 대여소 방문" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="관련페이지 url" />
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:linksClickable="true"
+            android:autoLink="web"
+            android:text="http://www.gangnam.go.kr/bike/apply/info.do?mid=FM020703"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--충남 공주-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:id="@+id/kyungnam_guchang_pop"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="자전거 이용방법" />
+        <TextView
+            android:id="@+id/textView_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="그린씽 자전거는 여성 및 노약자 누구나 편하게 승,하차 할 수 있는 자전거로 거창군 전역 어디든지 쉽게 편리하게 주행할 수 있습니다. 무인대여로 이용이 간편하고 이용하시는 동안 주행거리 및 속도, 이용시간을 확인할 수 있습니다.\n\n1. 자전거 대여버튼 선택\n2. 1일 이용권 가입\n3. 이용내역 확인 및 가입비 결제(휴대폰)\n4. 1일 이용권 번호 확인(※결제한 휴대폰으로 8자리 번호 전송-반납 후 24시간 이내 재사용 가능)\n5. 대여할 자전거 선택\n6. 대여할 자전거 거치대의 대여버튼 클릭\n7. 거치대와 자전거가 분리되어 이용가능 (※자전거 분리가 잘 안될 경우 살짝 들어 뒤로 빼면 됨)\n8. 거치대에 자전거를 거치하면 자동 반납" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="관련페이지 url" />
+
+        <TextView
+            android:id="@+id/textView_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:linksClickable="true"
+            android:autoLink="web"
+            android:text="http://www.greensing.kr/about/aboutUse.do?index=0203"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--서울 성동구-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:id="@+id/sungdong_pop"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="자전거 이용안내" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="대여시 구비조건 : 주민등록증과 핸드폰 또는 자택전화번호(운전면허증, 주민등록증, 여권, 학생증, 관공서 발행신분증도 가능)\n*초등학생 이하는 보호자동의(보호자신분증) 후 대여, 신분증이 없으면 대여가 불가합니다." />
+        <TextView
+            android:id="@+id/textView_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="자전거 이용방법" />
+        <TextView
+            android:id="@+id/textView_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="1. 신분확인 - 대여소 근무자에게 신분증 맡기기\n2. 연락처확인 - 연락처(핸드폰, 자택전화번호) 확인하기\n3. 자전거 상태 확인- 대여할 자전거 상태 확인하기\n4. 자전거 대여하기 - 대여할 자전거에 이상이 없을때 번호 확인 후 대여 하기\n5. 자전거 반납 - 관리자에게 자전거의 이상 유무를 확인하시고 반납하시기 바랍니다." />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="관련페이지 url(자전거 검색)" />
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:linksClickable="true"
+            android:autoLink="web"
+            android:text="https://www.sd.go.kr/sd/main.do"/>
+
+    </LinearLayout>
+</ScrollView>

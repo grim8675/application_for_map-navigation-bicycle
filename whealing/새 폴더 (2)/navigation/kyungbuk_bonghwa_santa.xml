@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--열목어마을-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:id="@+id/kyungbuk_bonghwa_santa_pop"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="자전거 이용방법" />
+        <TextView
+            android:id="@+id/textView_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="자전거 셰어링은 산태극 수태극의 물길사이로 생태소나무숲과 기암괴석이 가득한 낙동강 비경구간을 중심으로 분천역 앞에서 시작해 낙동강세평하늘길의 분천역~비동역(4.3km) 구간과 분천역~풍애마을(3.4km) 구간까지 2개 구간으로 운영하고 있다." />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="관련페이지 url" />
+
+        <TextView
+            android:id="@+id/textView_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:linksClickable="true"
+            android:autoLink="web"
+            android:text="http://bhtown.kr/board/bbs/content.php?co_id=experience01"/>
+
+    </LinearLayout>
+</ScrollView>

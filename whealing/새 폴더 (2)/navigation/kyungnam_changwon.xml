@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--충남 공주-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:id="@+id/kyungnam_changwon_pop"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="자전거 이용방법" />
+        <TextView
+            android:id="@+id/textView_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="매일 오전 10시~오후 6시\n자전거 이용 인원이 적은 7·8월과 추석연휴에는 운영되지 않는다.\n자전거 무료대여소는 누구나 신분증만 제시하면 평일 2시간, 주말 1시간 이내에서 자유롭게 자전거를 이용할 수 있다. 어린이 자전거와 2인용 자전거도 비치하여 가족단위 이용자를 위한 편의도 제공되고 있다." />
+
+
+    </LinearLayout>
+</ScrollView>

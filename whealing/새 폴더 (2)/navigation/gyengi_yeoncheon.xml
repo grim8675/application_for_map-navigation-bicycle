@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--경기도 연천군-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:id="@+id/gyeongi_yun_pop"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/textView_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="자전거 이용방법" />
+        <TextView
+            android:id="@+id/textView_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="대여소이용 수칙\n- 사진 확인 가능한 신분증 및 핸드폰 지참\n- 자전거 대여 후 운행 중 발생한 사고는 운행자의 책임\n- 자전거 대여자 본인이 직접 이상 여부를 확인하여 주시기 바라며, 이상이 있는 경우 즉시 교체\n대여받은 자가 자전거를 훼손, 분실 또는 도난 시에는 변상책임이 있습니다." />
+
+    </LinearLayout>
+</ScrollView>

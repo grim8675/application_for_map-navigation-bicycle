@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--충남 공주-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:id="@+id/chungnam_gong_pop"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="자전거 이용방법" />
+        <TextView
+            android:id="@+id/textView_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="비(1일)회원 이용권자 이용방법\n- 1단계 - 메뉴선택 ․ 키오스크에서 ‘자전거 대여’를 선택합니다.\n- 2단계 - 휴대폰 인증 ․ 휴대폰번호, 생년월일을 입력한 후 ‘인증번호 받기’ 버튼을 선택합니다. ․ 휴대폰에 수신된 인증번호를 입력한 후 ‘확인’ 버튼을 누릅니다.\n- 3단계 - 대여 ․ ‘정상처리 되었습니다.’라는 음성 메시지를 확인합니다." />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="관련페이지 url" />
+
+        <TextView
+            android:id="@+id/textView_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:linksClickable="true"
+            android:autoLink="web"
+            android:text="https://bike.gongju.go.kr/"/>
+
+    </LinearLayout>
+</ScrollView>

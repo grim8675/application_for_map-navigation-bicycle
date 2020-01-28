@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--충남 공주-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:id="@+id/junbuk_goonsan_pop"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="자전거 이용방법" />
+        <TextView
+            android:id="@+id/textView_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="1. 키오스크에서 비회원 자전거 대여를 선택합니다.\n2. 약관동의를 선택합니다\n3. 결제수단 선택(휴대폰결제)를 합니다.\n4. 통신사와 전화번호, 주민번호를 입력후 인증번호받기를 선택합니다.\n5. 핸드폰으로 인증번호가 오면 인증번호란에 입력합니다.\n6. 원하는 자전거로 이동 키버튼에서 *키를 누른다.\n7. 핸드폰으로 받은 인증번호를 입력하면 락장치가 해제됩니다.\n8.자전거를 거치대에서 분리한후 운행합니다.\n9. 사용후 거치대에 자전거의 락장치를 삽입한 후 반납합니다." />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="관련페이지 url" />
+
+        <TextView
+            android:id="@+id/textView_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:linksClickable="true"
+            android:autoLink="web"
+            android:text="http://gunsan.anybike.co.kr/memberhome.do?method=list"/>
+
+    </LinearLayout>
+</ScrollView>

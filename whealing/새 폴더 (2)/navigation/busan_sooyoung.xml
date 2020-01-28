@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--부산 수영구 공영자전거-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:id="@+id/busan_soo_pop"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="자전거 이용방법" />
+        <TextView
+            android:id="@+id/textView_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="이용시간 : 하절기(10:00~19:00), 동절기(10:00~17:00)\n지원대상 : 관내 자전거 이용자\n\n절차/방법\대여 조건 : 신분증 지참, 1인당 1대 대여(초등학생 이하는 보호자 동의 후 대여)\n대여료 : 무료(1인 1일 2시간)\n온라인신청 : 신청불가능\n\n문의처\n부산광역시 수영구 교통행정과 / 연락처 051-610-4555" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="관련페이지 url" />
+
+        <TextView
+            android:id="@+id/textView_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:linksClickable="true"
+            android:autoLink="web"
+            android:text="https://www.gov.kr/portal/service/serviceInfo/PTR000052715"/>
+
+    </LinearLayout>
+</ScrollView>

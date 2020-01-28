@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--서울 강동-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:id="@+id/gangdong_pop"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="자전거 대여 조건" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="주민등록증과 핸드폰 또는 자택전화번호, 운전면허증, 여권, 학생증 등 관공서 발행 신분증 (외국인 등록증도 가능)\n초등학생 이하는 보호자동의(보호자 신분증) 후 대여\n신분증이 없으면 대여가 불가능합니다." />
+
+        <TextView
+            android:id="@+id/textView_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="자전거 대여(반납) 순서" />
+        <TextView
+            android:id="@+id/textView_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text=" ① 신분증 확인하기\n ② 연락처(핸드폰, 자택전화) 확인하기\n ③ 대여할 자전거 상태 확인하기\n ④ 자전거 대여\n ⑤ 자물쇠 받기" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="관련페이지 url" />
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:linksClickable="true"
+            android:autoLink="web"
+            android:text="https://www.gangdong.go.kr/site/contents/ko/html02/html03/html04/index2.html"/>
+
+    </LinearLayout>
+</ScrollView>

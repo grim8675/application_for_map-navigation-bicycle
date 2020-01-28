@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--경기도 부천시-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:id="@+id/gyeongi_bucheon_pop"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/textView_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="자전거 이용방법" />
+        <TextView
+            android:id="@+id/textView_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="서비스종류 : 자전거대여, 경정비(공기압, 펑크, 브레이크 점검)\n자 격 : 시민 누구나, 외부인, 학생(중ㆍ고등학교)\n목 적 : 지하철 1호선 및 7호선 이용 출·퇴근 시민 편의제공 및 자전거 이용 활성화\n운영일 : 월 ~ 금요일 (토요일, 일요일, 공휴일 휴무)\n운영시간 : 03월 ~ 12월(월~금)\n- 하절기 : 03～10월 (07:00∼20:00) / 8개월\n- 동절기 : 11～12월 (09:00～18:00) / 2개월\n※ 점심시간(미운영) : 12:00~13:00\n대여절차 및 주의사항 / 신분증 및 휴대폰 지참시에만 대여 가능\n- 1일 대여 : 5시간 이내 (반납은 19:00까지)\n- 장기대여 : 회원제 / 1개월 단위(갱신 可)\n- 신분확인 : 주민등록증, 운전면허증, 학생증 등\n- 대여자전거의 분실 또는 훼손 시 변상\n ※ 자전거대여 후 사고발생시 이용자에게 책임이 있음." />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="관련페이지 url" />
+
+        <TextView
+            android:id="@+id/textView_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:linksClickable="true"
+            android:autoLink="web"
+            android:text="https://bike.bucheon.go.kr/site/homepage/menu/viewMenu?menuid=154001003003"/>
+
+    </LinearLayout>
+</ScrollView>

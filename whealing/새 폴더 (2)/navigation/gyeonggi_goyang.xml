@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--경기도 고양시-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:id="@+id/gyeongi_go_pop"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/textView_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="자전거 이용방법" />
+        <TextView
+            android:id="@+id/textView_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="이용대상\n만 13세 이상의 남녀노소 (도로교통법에 따라 어린이는 보호장구 착용)\n단, 만 13~16세는 법정대리인의 동의가 필요합니다.\n\n이용시간\n하루 24시간, 365일 이용가능 - 자전거 이용이 어려운 동절기 일부 기간은 중지할 수도 있음(별도 안내)\n\n이용방법\n회원으로 이용하는 경우\n- 피프틴 홈페이지에서 회원가입 및 카드발급(카드번호 확인 필요)\n- 무인단말기에 '카드 등록' 후 자전거 대여, 이용 후 반납\n준회원으로 이용하는 경우\n- 준회원권을 가까운 가맹점에서 구입 (가맹점 : 바이더웨이, 세븐일레븐, GS25)\n- 무인단말기에 피프틴데이트카드(준회원권)를 대고 '휴대폰 인증' 후 자전거 대여, 사용 후 반납\n임시회원으로 이용하는 경우\n- 무인단말기에서 '휴대폰 인증' 후 자전거 대여, 사용 후 반납" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="관련페이지 url" />
+
+        <TextView
+            android:id="@+id/textView_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:linksClickable="true"
+            android:autoLink="web"
+            android:text="http://www.fifteenlife.com/introduce/usage_guide.jsp"/>
+
+    </LinearLayout>
+</ScrollView>

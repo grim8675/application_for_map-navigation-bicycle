@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--충남 공주-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:id="@+id/junnam_damyang_pop"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="자전거 이용방법" />
+        <TextView
+            android:id="@+id/textView_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="담양읍사무소에서는 관광담양을 방문하는 관광객의 편의를 도모하고자 자전거를 무료로 대여해 드리고 있습니다\n- 기 간 : 연 중\n- 수 량 : 14대\n- 이용시간 : 2시간 (이용시간은 2시간이며 17:30분까지는 반납하여야 함)\n- 운 영 : 매일 09:00 ~ 17:30 (휴무일 이용가능)\n- 지 참 물 : 신분증\n- 관광코스 : 죽녹원 ~ 관방제림 ~ 메타세쿼이아가로수길등 담양읍 주요관광지\n- 문 의 처 : 061) 380-3728, 380-3726\n- 주의사항\n* 보험 미가입으로 이용에 따른 안전사고 발생시 이용자 책임\n* 자전거 열쇠 분실시 5,000원 부담\n* 자전거 대여 수량 사전 확인후 담양읍사무소 방문요망" />
+
+
+    </LinearLayout>
+</ScrollView>

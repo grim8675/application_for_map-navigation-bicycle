@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--충남 공주-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:id="@+id/chungnam_asan_pop"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="자전거 이용방법" />
+        <TextView
+            android:id="@+id/textView_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="일 시 : 매일 오전9시 ~ 오후 6시(설날과 그 전일, 추석 당일은 제외)\n요 금 : (기본 2시간) 일반용 1,000원, 2인승 2,000원, 기본시간 초과 시 30분당 500원 부과.\n대여조건 : 마감시간 40분전 까지만 대여." />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="대여소 연락처\n- 은행나무길 자전거 대여소 : 041-531-9226\n- 신정호 자전거 대여소 : 041-531-9793\n- 온양온천역 자전거 대여소 : 041-531-9397" />
+
+
+    </LinearLayout>
+</ScrollView>

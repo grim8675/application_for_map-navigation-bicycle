@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--제주시-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:id="@+id/jeju_pop"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/textView_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="자전거 이용방법" />
+        <TextView
+            android:id="@+id/textView_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="1.\t비회원 대여 : 회원가입하지 않은 비회원은 휴대폰 본인 인증으로 1회 대여를 할 수 있습니다.(휴대폰 본인 인증을 통해서 결제)\n원하는 자전거를 거치대에서 별(*) 표를 누른 뒤 화면에 인증번호를 누르라 나오면 휴대폰 인증 때와 같은 인증번호(6자리)를 눌러 대여합니다.\n2.\t회원등록 : 자주 타시는 경우, 1회 인증으로 회원등록을 하여 일정 기간 계속 대여가 가능합니다.(휴대폰 본인인증을 통해서 가입가능)\n등록된 회원 카드로 거치대에서 직접 대여합니다.(거치대의 별(*)버튼을 누르고 카드를 대라는 메시지가 화면에 나오면 카드를 대고, 대여암호(기본 1111)를 누르세요.)" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="관련페이지 url" />
+
+        <TextView
+            android:id="@+id/textView_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:linksClickable="true"
+            android:autoLink="web"
+            android:text="http://www.jejusi.go.kr/field/traffic/bike/info.do"/>
+
+    </LinearLayout>
+</ScrollView>

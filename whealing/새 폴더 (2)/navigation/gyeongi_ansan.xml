@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--경기도 안산시-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:id="@+id/gyeongi_ans_pop"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/textView_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="자전거 이용방법" />
+        <TextView
+            android:id="@+id/textView_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="1일 이용권 대여방법\n1. 1일 회원 대여(키오스크 화면에서 1일 회원을 선택후, 1일 회원 메인화면에서 1일 회원 대여를 선택합니다.)\n2. 1일 이용권 번호 입력(결제 후 핸드폰으로 전송된 번호를 입력합니다.)\n3. 자전거 선택(이용할 자전거를 선택합니다.)\n4. 자전거 이용(자전거를 대여합니다.)\n5. 자전거 반납(이용 후 보관대에 자전거를 거치 후 보관중 파란불 램프를 확입합니다.)" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="관련페이지 url" />
+
+        <TextView
+            android:id="@+id/textView_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:linksClickable="true"
+            android:autoLink="web"
+            android:text="https://www.pedalro.kr/index.do"/>
+
+    </LinearLayout>
+</ScrollView>

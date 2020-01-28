@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--경기도 오산시-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:id="@+id/gyeongi_osan_pop"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/textView_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="자전거 이용방법" />
+        <TextView
+            android:id="@+id/textView_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="이용요금 : 무료\n운영시간 : 화요일 ~ 일요일(월요일 휴무)/오전9시 ~ 오후6시(대여는 오후 5시까지 가능)\n대여시간 : 1일 1회 최대 3시간\n보유자전거 : 총 100대\n대여방법 : 본인 확인이 가능한 신분증 및 휴대전화 소지하여야 대여가능(초등학생 이하는 어린이 보호자가 대여)\n*오산천 내에서만 이용가능하며, 대여중 발생한 고장 및 분실, 도난 등의 경우 실비 변상\n오산천 자전거 대여소 : 032-8036-8736" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="관련페이지 url" />
+
+        <TextView
+            android:id="@+id/textView_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:linksClickable="true"
+            android:autoLink="web"
+            android:text="http://www.osan.go.kr/osanCulture/contents.do?mId=0300000000"/>
+
+    </LinearLayout>
+</ScrollView>

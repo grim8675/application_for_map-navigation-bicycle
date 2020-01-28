@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--서울 관악-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:id="@+id/gwanak_pop"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="자전거 이용방법" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="1.\t처음 오신분\n\t-주민증 제시후\n\t-동의서 작성(주민증과 동일하게) 후\n\t-대여신청서 작성\n\t-대여시 핸드폰 지참\n2.\t두번이상 오신분\n\t-대여신청서 작성\n3.\t보관하고자 오신분\n\t-먼저직원과 면담후 동의서 작성\n4.\t미성년자는 보호자(성인)동반" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="관련페이지 url" />
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:linksClickable="true"
+            android:autoLink="web"
+            android:text="http://www.gwanak.go.kr/site/gwanak/main.do"/>
+
+    </LinearLayout>
+</ScrollView>

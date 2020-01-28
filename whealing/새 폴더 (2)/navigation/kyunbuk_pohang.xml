@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--충남 공주-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:id="@+id/kyungbuk_pohang_pop"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="현재 ‘바이크하우스’ 자활사업단에서 운영하는 자전거 무료대여소는 송도동 포항 운하관과 호미곶 해맞이광장 2곳에 약 30대의 자전거가 비치돼 있으며 무료로 이용할 수 있다. 포항 운하관 대여소를 이용하면 죽도시장, 영일대해수욕장, 환호해맞이공원으로 이어지는 코스를 통해 도심볼거리 먹을거리를 즐기거나 형산강 둔치의 꽃길을 돌면서 가을을 만끽할 수 있다. 자전거 대여소는 다음달 말까지 월,화를 제외한 오전 10시부터 오후 5시(호미곶은 오후 4시)까지 운영된다. 이용시간은 기본 2시간으로 무료로 대여할 수 있다." />
+
+    </LinearLayout>
+</ScrollView>
